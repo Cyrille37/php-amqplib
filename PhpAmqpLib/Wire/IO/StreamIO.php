@@ -114,7 +114,7 @@ class StreamIO extends AbstractIO
                 $this->context = stream_context_create();
             }
         } else {
-            $this->protocol = 'ssl';
+            $this->protocol = 'tls';
         }
     }
 
